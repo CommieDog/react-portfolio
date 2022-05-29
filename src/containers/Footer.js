@@ -1,7 +1,9 @@
 function Footer() {
     return (
-      <div>I am the footer!
-      </div>
+      <footer>
+        <p>Copyright 2022 by John Netzel. All rights reserved.</p>
+        <p>Licensed under the terms of the MIT License.</p>
+      </footer>
     );
   }
   
