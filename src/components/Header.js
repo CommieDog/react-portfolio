@@ -14,10 +14,10 @@ function Header(props) {
         </div>
         <nav>
           <ul>
-            <li><NavbarLink name="About Me" onSetPage={props.onSetPage} /></li>
-            <li><NavbarLink name="Portfolio" onSetPage={props.onSetPage} /></li>
-            <li><NavbarLink name="Contact" onSetPage={props.onSetPage} /></li>
-            <li><NavbarLink name="Resume" onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="About Me" isActivePage={props.isActivePage} onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Portfolio" isActivePage={props.isActivePage} onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Contact" isActivePage={props.isActivePage} onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Resume" isActivePage={props.isActivePage} onSetPage={props.onSetPage} /></li>
           </ul>
         </nav>
       </header>

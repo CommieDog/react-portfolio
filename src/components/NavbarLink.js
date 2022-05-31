@@ -17,8 +17,18 @@ function NavbarLink(props) {
     props.onSetPage(props.name);
   }
 
+  // TODO replace with CSS class marker
+  function getPageMarker()
+  {
+    if(props.isActivePage(props.name))
+    {
+      return "!";
+    }
+    return "";
+  }
+
   return (
-    <a href={getHref(props.name)} onClick={setPage}>{props.name}</a>
+    <a href={getHref(props.name)} onClick={setPage}>{props.name + getPageMarker()}</a>
   );
 }
 

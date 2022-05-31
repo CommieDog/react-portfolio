@@ -8,9 +8,14 @@ import Footer from "./components/Footer"
 function App() {
   const [ page, setPage ] = useState("About Me");
 
+  function isActivePage(pageName)
+  {
+    return pageName === page;
+  }
+
   return (
     <div className="App">
-      <Header onSetPage={setPage}/>
+      <Header isActivePage={isActivePage} onSetPage={setPage}/>
       <Body page={page} />
       <Footer />
     </div>
