@@ -11,9 +11,15 @@ function getHref(name)
 }
 
 function NavbarLink(props) {
-    return (
-      <a href={getHref(props.name)}>{props.name}</a>
-    );
+  // Sets the active page to the page corresponding with this link
+  function setPage()
+  {
+    props.onSetPage(props.name);
   }
-  
-  export default NavbarLink;
+
+  return (
+    <a href={getHref(props.name)} onClick={setPage}>{props.name}</a>
+  );
+}
+
+export default NavbarLink;

@@ -1,7 +1,7 @@
 import portrait from "../assets/images/profile-picture-small.jpg"
 import NavbarLink from "./NavbarLink";
 
-function Header() {
+function Header(props) {
     return (
       <header>
         <h1>John Netzel</h1>
@@ -14,10 +14,10 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li><NavbarLink name="About Me" /></li>
-            <li><NavbarLink name="Portfolio" /></li>
-            <li><NavbarLink name="Contact" /></li>
-            <li><NavbarLink name="Resume" /></li>
+            <li><NavbarLink name="About Me" onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Portfolio" onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Contact" onSetPage={props.onSetPage} /></li>
+            <li><NavbarLink name="Resume" onSetPage={props.onSetPage} /></li>
           </ul>
         </nav>
       </header>
