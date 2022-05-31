@@ -1,4 +1,5 @@
 import portrait from "../assets/images/profile-picture-small.jpg"
+import NavbarLink from "./NavbarLink";
 
 function Header() {
     return (
@@ -13,10 +14,10 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><NavbarLink name="About Me" /></li>
+            <li><NavbarLink name="Portfolio" /></li>
+            <li><NavbarLink name="Contact" /></li>
+            <li><NavbarLink name="Resume" /></li>
           </ul>
         </nav>
       </header>
