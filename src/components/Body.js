@@ -42,14 +42,14 @@ function Body(props){
         return (
           <>
             <h2>Contact</h2>
-            <form>
-              <label htmlFor="contact-name">Name</label>
-              <input id="contact-name" name="contact-name" required></input>
-              <label htmlFor="contact-email">Email</label>
-              <input id="contact-email" name="contact-email" type="email" required></input>
-              <label htmlFor="contact-message">Message</label>
-              <input id="contact-message" name="contact-message" required></input>
-              <button type="submit">Submit</button>
+            <form className="mx-5">
+              <label className="form-label" htmlFor="contact-name">Name</label>
+              <input className="form-control form-control-lg mb-3" id="contact-name" name="contact-name" required></input>
+              <label className="form-label" htmlFor="contact-email">Email</label>
+              <input className="form-control form-control-lg mb-3" id="contact-email" name="contact-email" type="email" required></input>
+              <label className="form-label" htmlFor="contact-message">Message</label>
+              <textarea className="form-control form-control-lg mb-3" id="contact-message" name="contact-message" rows="5" required></textarea >
+              <button className="btn btn-primary" type="submit">Submit</button>
             </form>
           </>
         );
