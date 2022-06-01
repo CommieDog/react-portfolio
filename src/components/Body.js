@@ -22,12 +22,12 @@ function Body(props){
           <>
             <h2>Portfolio</h2>
             <div>
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
-              <Project title="Project" imageSrc="." imageAlt="." description="Description" demoLink="#" repoLink="#" />
+              <Project title="BookenD" imageSrc="." imageAlt="BookenD Screenshot" description="Full stack application that allows readers to join a community of others in finding new books to read, viewing public book clubs, and creating their own clubs and inviting friends and family" demoLink="https://glacial-plateau-74113.herokuapp.com/" repoLink="https://github.com/CommieDog/bookend" />
+              <Project title="Employee Data Manager" imageSrc="." imageAlt="Employee Data Manager Screencap" description="An application to manage the departments, roles, and employees of a company" demoLink="#" repoLink="https://github.com/CommieDog/employee-data-manager" />
+              <Project title="JavaScript Gauntlet" imageSrc="." imageAlt="JavaScript Gauntlet Screenshot" description="A webpage that presents a timed multiple-choice quiz on the basics of JavaScript" demoLink="https://commiedog.github.io/javascript-gauntlet/" repoLink="https://github.com/CommieDog/javascript-gauntlet" />
+              <Project title="Stock Portfolio Analyzer" imageSrc="." imageAlt="Stock Portfolio Analyzer Screencap" description="Website for entering stock portfolio data and performing simple analysis" demoLink="https://commiedog.github.io/stock-portfolio-analyzer/" repoLink="https://github.com/CommieDog/stock-portfolio-analyzer" />
+              <Project title="Team Profile Generator" imageSrc="." imageAlt="Team Protfolio Generator Output Screenshot" description="A Node.js command line application for building development team profile webpages" demoLink="#" repoLink="https://github.com/CommieDog/team-profile-generator" />
+              <Project title="Weather Companion" imageSrc="." imageAlt="Weather Companion Screencap" description="A traveller's companion for planning trips based on present and future weather conditions" demoLink="https://commiedog.github.io/weather-companion/" repoLink="https://github.com/CommieDog/weather-companion" />
             </div>
           </>
         );
