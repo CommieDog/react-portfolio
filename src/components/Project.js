@@ -1,4 +1,19 @@
 function Project(props) {
+
+  function getDemoLink()
+  {
+    if (props.demoLink){
+      return <a className="card-link" href={props.demoLink}>Deployed Demo</a>
+    }
+  }
+
+  function getVideoLink()
+  {
+    if (props.videoLink){
+      return <a className="card-link" href={props.videoLink}>Video Demo</a>
+    }
+  }
+
   return (
     <div>
       <div className="col">
@@ -12,7 +27,8 @@ function Project(props) {
               <p className="card-text">{props.description}</p>
             </div>
             <div className="card-footer">
-              <a className="card-link" href={props.demoLink}>Deployed Demo</a>
+              {getDemoLink()}
+              {getVideoLink()}
               <a className="card-link" href={props.repoLink}>GitHub Repository</a>
             </div>
           </div>
