@@ -3,8 +3,12 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+html {
+  height: 100%; /* Needed to fix gradient repeating */
+}
+
 body {
-  margin: 0;
+  height: 100%; /* Needed to fix gradient repeating */
   background: linear-gradient(lightcyan, aliceblue); /* Subtle, but pleasant */
 }
 
