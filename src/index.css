@@ -1,15 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-size: 20px; /* I like big letters */
+  font-family: 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background: linear-gradient(lightcyan, aliceblue); /* Subtle, but pleasant */
+}
+
+h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3.75em;
+}
+
+h2 {
+    font-size: 2.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+header {
+    background-color: lightblue;
+}
+
+#portrait {
+    max-width: 250px;
+    border: 6px ridge chocolate;
+}
+
+#projects .card {
+    background-color: rgba(173, 216, 230, 0.5);
+}
+
+#projects .card-img {
+    width: 320px;
+}
+
+#experience .list-group-item {
+    background-color: rgba(173, 216, 230, 0.5);
+}
+
+/*.card-container {
+    margin: 1rem;
+}
+
+.card-container:hover {
+    margin: 0px;
+    transition: margin-right 1s, margin-top 1s, margin-left 1s, margin-bottom 1s;
+}*/
+
+.card-container:hover .card {
+    background-color: rgba(173, 216, 230, 0.5);
 }
 
 .nav-link.active {
