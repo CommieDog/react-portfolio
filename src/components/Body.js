@@ -40,17 +40,32 @@ function Body(props){
       case "Contact":
         return (
           <>
+            <h2>Contact</h2>
             <form>
               <label for="contact-name">Name</label>
               <input id="contact-name" name="contact-name" required></input>
               <label for="contact-email">Email</label>
-              <input id="contact-email" name="contact-email" type="email" required ></input>
+              <input id="contact-email" name="contact-email" type="email" required></input>
               <label for="contact-message">Message</label>
               <input id="contact-message" name="contact-message" required></input>
               <button type="submit">Submit</button>
             </form>
           </>
-        )
+        );
+      case "Resume":
+        return (
+          <>
+            <h2>Resume</h2>
+            <ul class="list-group">
+              <li class="list-group-item">Writing webpages that leverage many features of HTML 5 and CSS 3, including semantic HTML and responsive design</li>
+              <li class="list-group-item">Writing webpages that use JavaScript and built-in APIs to dynamically generate content</li>
+              <li class="list-group-item">Usage of third-party server side APIs to build data-rich webpages</li>
+              <li class="list-group-item">Usage of Node.js to build command line and back end applications</li>
+              <li class="list-group-item">Familiarity with popular third-party JavaScript libraries such as jQuery, Bootstrap, Express.js, and Sequelize</li>
+              <li class="list-group-item">Writing programs using Java, such as the front end UI for an app that takes in components of construction jobs and outputs cost and labor estimates</li>
+            </ul>
+          </>
+        );
       default:
         return (<p>Implement me! ({props.page})</p>)
     }
