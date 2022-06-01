@@ -10,24 +10,23 @@ function Navigation(props) {
       name = name.replace(" ", "-");
       return "#" + name;
     }
-  
-    // TODO replace with CSS class marker
-    function getPageMarker(pageName)
+
+    function getNavLinkClass(pageName)
     {
       if(props.isActivePage(pageName))
       {
-        return "!";
+        return "nav-link active";
       }
-      return "";
+      return "nav-link";
     }
 
     return (
       <nav>
         <ul className="nav">
-          <li className="nav-item"><a className="nav-link" href={getHref("About Me")} onClick={() => props.onSetPage("About Me")}>{"About Me" + getPageMarker("About Me")}</a></li>
-          <li className="nav-item"><a className="nav-link" href={getHref("Portfolio")} onClick={() => props.onSetPage("Portfolio")}>{"Portfolio" + getPageMarker("Portfolio")}</a></li>
-          <li className="nav-item"><a className="nav-link" href={getHref("Contact")} onClick={() => props.onSetPage("Contact")}>{"Contact" + getPageMarker("Contact")}</a></li>
-          <li className="nav-item"><a className="nav-link" href={getHref("Resume")} onClick={() => props.onSetPage("Resume")}>{"Resume" + getPageMarker("Resume")}</a></li>
+          <li className="nav-item"><a className={getNavLinkClass("About Me")} href={getHref("About Me")} onClick={() => props.onSetPage("About Me")}>About Me</a></li>
+          <li className="nav-item"><a className={getNavLinkClass("Portfolio")} href={getHref("Portfolio")} onClick={() => props.onSetPage("Portfolio")}>Portfolio</a></li>
+          <li className="nav-item"><a className={getNavLinkClass("Contact")} href={getHref("Contact")} onClick={() => props.onSetPage("Contact")}>Contact</a></li>
+          <li className="nav-item"><a className={getNavLinkClass("Resume")} href={getHref("Resume")} onClick={() => props.onSetPage("Resume")}>Resume</a></li>
         </ul>
       </nav>
     );
