@@ -1,5 +1,3 @@
-import Nav from "react-bootstrap/Nav"
-
 function Navigation(props) {
     /**
      * Converts a name property into an appropriate href value
@@ -25,11 +23,11 @@ function Navigation(props) {
 
     return (
       <nav>
-        <ul className={Nav}>
-          <li><a href={getHref("About Me")} onClick={() => props.onSetPage("About Me")}>{"About Me" + getPageMarker("About Me")}</a></li>
-          <li><a href={getHref("Portfolio")} onClick={() => props.onSetPage("Portfolio")}>{"Portfolio" + getPageMarker("Portfolio")}</a></li>
-          <li><a href={getHref("Contact")} onClick={() => props.onSetPage("Contact")}>{"Contact" + getPageMarker("Contact")}</a></li>
-          <li><a href={getHref("Resume")} onClick={() => props.onSetPage("Resume")}>{"Resume" + getPageMarker("Resume")}</a></li>
+        <ul className="nav">
+          <li className="nav-item"><a className="nav-link" href={getHref("About Me")} onClick={() => props.onSetPage("About Me")}>{"About Me" + getPageMarker("About Me")}</a></li>
+          <li className="nav-item"><a className="nav-link" href={getHref("Portfolio")} onClick={() => props.onSetPage("Portfolio")}>{"Portfolio" + getPageMarker("Portfolio")}</a></li>
+          <li className="nav-item"><a className="nav-link" href={getHref("Contact")} onClick={() => props.onSetPage("Contact")}>{"Contact" + getPageMarker("Contact")}</a></li>
+          <li className="nav-item"><a className="nav-link" href={getHref("Resume")} onClick={() => props.onSetPage("Resume")}>{"Resume" + getPageMarker("Resume")}</a></li>
         </ul>
       </nav>
     );
