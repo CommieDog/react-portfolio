@@ -37,6 +37,19 @@ function Body(props){
             </div>
           </>
         );
+      case "Contact":
+        return (
+          <>
+            <form>
+              <label for="name">Name</label>
+              <input name="name"></input>
+              <label for="email">Email</label>
+              <input name="email"></input>
+              <label for="message">Message</label>
+              <input name="message"></input>
+            </form>
+          </>
+        )
       default:
         return (<p>Implement me! ({props.page})</p>)
     }
