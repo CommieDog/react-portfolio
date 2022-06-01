@@ -41,12 +41,13 @@ function Body(props){
         return (
           <>
             <form>
-              <label for="name">Name</label>
-              <input name="name"></input>
-              <label for="email">Email</label>
-              <input name="email"></input>
-              <label for="message">Message</label>
-              <input name="message"></input>
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="contact-name" required></input>
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="contact-email" type="email" required ></input>
+              <label for="contact-message">Message</label>
+              <input id="contact-message" name="contact-message" required></input>
+              <button type="submit">Submit</button>
             </form>
           </>
         )
