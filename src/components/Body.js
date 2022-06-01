@@ -5,6 +5,7 @@ import javascript_gauntlet_screenshot from "../assets/images/javascript-gauntlet
 import stock_portfolio_analyzer_screencap from "../assets/images/stock-portfolio-analyzer-screencap.gif";
 import team_profile_generator_output_screenshot from "../assets/images/sample-team-webpage-screenshot.jpg";
 import weather_companion_screenshot from "../assets/images/weather-portfolio-screenshot.jpg";
+import resume from "../assets/pdf/John Netzel_Web Developer_Resume.pdf";
 
 import Project from "./Project";
 
@@ -55,7 +56,7 @@ function Body(props){
       case "Resume":
         return (
           <>
-            <h2>Resume</h2>
+            <a href={resume} target="_blank" rel="noreferrer"><h2>Resume</h2></a>
             <ul class="list-group">
               <li class="list-group-item">Writing webpages that leverage many features of HTML 5 and CSS 3, including semantic HTML and responsive design</li>
               <li class="list-group-item">Writing webpages that use JavaScript and built-in APIs to dynamically generate content</li>
