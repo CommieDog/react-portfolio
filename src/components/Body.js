@@ -19,7 +19,7 @@ function Body(props){
         return (
           <>
             <h2>About Me</h2>
-            <img src={portrait} alt="Portrait of John Netzel" title="Hello there!"/>
+            <img id="portrait" className="shadow" src={portrait} alt="Portrait of John Netzel" title="Hello there!"/>
             <p>I am an aspiring full stack web developer. Though I did not major in computer science in university (I went for geology instead), I did take a few programming courses and worked as a hobbyist on a few projects of my own. Though I never released anything publicly, I did learn the basics of software design and discovered an interest that I hope to turn into a career.</p>
             <p>I currently reside in Anchorage, Alaska, USA. On my off time, I enjoy video gaming, rock collecting, and hiking.</p>
           </>
@@ -57,7 +57,7 @@ function Body(props){
         return (
           <>
             <a href={resume} target="_blank" rel="noreferrer"><h2>Resume</h2></a>
-            <ul className="list-group">
+            <ul className="list-group mx-5">
               <li className="list-group-item">Writing webpages that leverage many features of HTML 5 and CSS 3, including semantic HTML and responsive design</li>
               <li className="list-group-item">Writing webpages that use JavaScript and built-in APIs to dynamically generate content</li>
               <li className="list-group-item">Usage of third-party server side APIs to build data-rich webpages</li>
