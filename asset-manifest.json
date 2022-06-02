@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.09e3f862.css",
+    "main.js": "/react-portfolio/static/js/main.095bbd90.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/employee-data-manager-screencap.gif": "/react-portfolio/static/media/employee-data-manager-screencap.71245bcc1cba360e06e0.gif",
+    "static/media/stock-portfolio-analyzer-screencap.gif": "/react-portfolio/static/media/stock-portfolio-analyzer-screencap.4f35c0d3170aa9718c96.gif",
+    "static/media/bookend-screenshot.png": "/react-portfolio/static/media/bookend-screenshot.f367558ac5ee1ed46801.png",
+    "static/media/weather-portfolio-screenshot.jpg": "/react-portfolio/static/media/weather-portfolio-screenshot.dbb69ec28915600e1a57.jpg",
+    "static/media/sample-team-webpage-screenshot.jpg": "/react-portfolio/static/media/sample-team-webpage-screenshot.e1b63598f2359d291690.jpg",
+    "static/media/javascript-gauntlet-quiz-screenshot.jpg": "/react-portfolio/static/media/javascript-gauntlet-quiz-screenshot.3d69c41b232f0d7ccf68.jpg",
+    "static/media/profile-picture-small.jpg": "/react-portfolio/static/media/profile-picture-small.b5bbd80186418e4b44a7.jpg",
+    "static/media/John Netzel_Web Developer_Resume.pdf": "/react-portfolio/static/media/John Netzel_Web Developer_Resume.2091c00a7dfcb33406c1.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.09e3f862.css.map": "/react-portfolio/static/css/main.09e3f862.css.map",
+    "main.095bbd90.js.map": "/react-portfolio/static/js/main.095bbd90.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e3f862.css",
+    "static/js/main.095bbd90.js"
+  ]
+}
