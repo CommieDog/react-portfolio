@@ -15,9 +15,9 @@ function Project(props) {
   }
 
   return (
-    <div>
+    <>
       <div className="col">
-        <div className="card-container m-3">
+        <div className="card-container m-3 h-100">
           <div className="card h-100">
             <div className="card-header">
               <h3 className="card-title">{props.title}</h3>
@@ -34,7 +34,7 @@ function Project(props) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
