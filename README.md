@@ -1,7 +1,7 @@
 # React Portfolio
 This project is my fourth attempt at a professional-looking portfolio page. This version features a multi-page design powered by the React framework. Among the biggest changes are to moving of the portrait to the About Me section and the creation of a Contact section with a form for contacting me via email.
 
-![Screenshot of final product.](https://github.com/CommieDog/react-portfolio/blob/main/assets/images/readme/react-portfolio-screenshot.jpg)
+![Screenshot of final product.](https://user-images.githubusercontent.com/56412072/171549845-4d63d6ae-c6c4-436f-a4cd-c86723a415ff.jpg)
 
 
 ## Table of Contents
